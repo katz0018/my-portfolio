@@ -44,7 +44,8 @@ a:hover {
 }
 
 img {
-  width: 100%;
+  width: 20%;
+  float: left;
 }
 
 .unit  .xs-1-5 {
@@ -52,5 +53,5 @@ img {
 }
 
 .grid {
-  float: left;
+  overflow: hidden;
 }
