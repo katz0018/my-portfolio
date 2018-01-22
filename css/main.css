@@ -1,0 +1,56 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  border-radius: 4px;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #000;
+  padding: 1em 2em;
+}
+
+.signature {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+}
+
+.unit  .xs-1-5 {
+  width: 20%;
+}
+
+.grid {
+  float: left;
+}
