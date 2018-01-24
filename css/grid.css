@@ -19,48 +19,35 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
+.grid {
+  overflow: hidden;
 }
 
-div {
-  text-align: center;
-}
-
-nav {
-margin: 0 auto;
-width: 100%;
-overflow: hidden;
-}
-
-nav ul li {
-  list-style-type: none;
-  display: block;
+.unit {
   float: left;
 }
 
-nav ul li a {
-  padding: 1em 2em;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-  border-radius: 4px;
-}
-
-a:hover {
-  color: #fff;
-  background-color: #000;
-  padding: 1em 2em;
-}
-
-.signature {
-  width: 50%;
-}
-
-.img-flex {
-  display: block;
+.xs-1 {
   width: 100%;
-  padding: 1em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .s-1 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .m-1-2 {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .l-1-5 {
+    width: 20%;
+  }
 }
