@@ -23,14 +23,17 @@ body {
   margin: 0;
 }
 
-div {
+.menu {
   text-align: center;
+}
+
+.nav {
+  height: 50px;
 }
 
 nav {
 margin: 0 auto;
 width: 100%;
-overflow: hidden;
 }
 
 nav ul li {
@@ -55,12 +58,26 @@ a:hover {
   padding: 1em 2em;
 }
 
+.active {
+  background-color: #000;
+  color: #fff;
+}
+
 .signature {
   width: 50%;
+}
+
+.signature-div {
+  margin: 0 auto;
 }
 
 .img-flex {
   display: block;
   width: 100%;
   padding: 1em;
+}
+
+.conatiner-right, .container-left {
+  display: block;
+  width: 53%;
 }
