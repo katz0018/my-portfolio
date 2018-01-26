@@ -51,6 +51,7 @@ a {
   text-decoration: none;
   color: #000;
   border-radius: 4px;
+  display: inline-block;
 }
 
 a:hover {
@@ -78,7 +79,54 @@ a:hover {
   padding: 1em;
 }
 
-.conatiner-right, .container-left {
+.timeline {
+  position: relative;
+}
+
+.one {
   display: block;
-  width: 53%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  bottom: 41em;
+}
+
+.two {
+  display: block;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  bottom: 35em;
+}
+
+.three {
+  display: block;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  bottom: 30em;
+}
+
+.four {
+  display: block;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  bottom: 25em;
+}
+
+.five {
+  display: block;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  bottom: 20em;
+}
+
+.six {
+  display: block;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  bottom: 15em;
 }
