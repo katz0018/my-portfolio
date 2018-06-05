@@ -4,21 +4,55 @@
   <meta charset="utf-8">
   <title>Jazmin's website</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="second.html" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
-  <header class="menu">
-    <div class="signature-div">
-      <img class="signature" src="images/signature.png" alt="signature">
-    </div>
-    <div class="button">
-      <a href="timeline.html">My imagination starts here</a>
+  <header role="banner">
+    <div>
+      <div class="pad-t-1-2 text-center">
+        <img class="name" src="images/signature.png" alt="name">
+      </div>
     </div>
   </header>
+
+  <main role="main" id="main" tabindex="0">
+    <div class="grid">
+      <div class="relative unit xs-1 s-1 m-1-3 l-1-3">
+        <a class="pin-c absolute nav-ul island-2" href="index.html">Home</a>
+        <img src="images/face.png" alt="art-face">
+      </div>
+      <div class="relative unit xs-1 s-1 m-1-3 l-1-3">
+        <a class="pin-c absolute nav-ul island-2" href="art.html">My mind</a>
+        <img src="images/feelings-stress-colours.png" alt="art-stress">
+      </div>
+      <div class="relative unit xs-1 s-1 m-1-3 l-1-3">
+        <a class="pin-c absolute nav-ul island-2" href="contact.html">Lets talk</a>
+        <img src="images/hug.jpg" alt="art-hug">
+      </div>
+  </main>
+
+  <footer class="island-2" role="contentinfo">
+    <div class="grid island-2 text-center">
+      <div class="pad-t-2 pad-b-2 unit xs-1-3 s-1-3 m-1-3 l-1-3">
+        <a href=""><img class="footer-img" src="images/snapchat.jpg" alt="snapchat"></a>
+      </div>
+      <div class="pad-t-2 pad-b-2 unit xs-1-3 s-1-3 m-1-3 l-1-3">
+        <a href=""><img class="footer-img" src="images/facebook.jpg" alt="facebook"></a>
+      </div>
+      <div class="pad-t-2 pad-b-2 unit xs-1-3 s-1-3 m-1-3 l-1-3">
+        <a href=""><img class="footer-img" src="images/insta.jpg" alt="insta"></a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
