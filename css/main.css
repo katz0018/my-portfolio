@@ -1,26 +1,19 @@
-.name {
-  width: 128px;
-}
-
-.nav-ul {
-  text-decoration: none;
-  color: #fff;
-}
-
-a:hover {
-  background: hsla(0, 100%, 90%, 0.6);
-  border-radius: 10px;
+a {
   color: #000;
 }
 
-main img {
-  width: 100%;
-}
-
 .footer-img {
-  width: 50px;
+  width: 5em;
 }
 
-footer {
-  background-color: #000;
+nav a:hover {
+
+}
+
+.name {
+  width: 40em;
+}
+
+main {
+  background-color: #F0F0F0;
 }
